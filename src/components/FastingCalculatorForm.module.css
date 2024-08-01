@@ -1,0 +1,31 @@
+.form {
+    @apply space-y-4 sm:space-y-6;
+  }
+  
+  .formGroup {
+    @apply flex flex-col;
+  }
+  
+  .label {
+    @apply text-base sm:text-lg font-medium text-gray-300 mb-1 flex items-center;
+  }
+  
+  .input, .select {
+    @apply w-full border border-gray-600 rounded-md p-2 text-white bg-gray-700 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200;
+  }
+  
+  .inputIcon {
+    @apply mr-2 text-blue-400;
+  }
+  
+  .button {
+    @apply w-full bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-300 mt-4 font-semibold text-base sm:text-lg;
+  }
+  
+  .heightInputGroup {
+    @apply flex gap-2;
+  }
+  
+  .heightInputGroup .input {
+    @apply flex-1;
+  }

@@ -1,0 +1,63 @@
+.container {
+    @apply min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 flex flex-col items-center justify-center p-4;
+  }
+  
+  .main {
+    @apply bg-gray-800 rounded-xl shadow-2xl p-4 sm:p-8 w-full max-w-2xl;
+  }
+  
+  .title {
+    @apply text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 sm:mb-8 flex items-center justify-center text-center;
+  }
+  
+  .icon {
+    @apply mr-2 sm:mr-4 text-blue-400;
+  }
+  
+  .modal {
+    @apply bg-gray-800 rounded-xl p-6 max-w-md mx-auto mt-20 outline-none;
+  }
+  
+  .overlay {
+    @apply fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center;
+  }
+  
+  .modalTitle {
+    @apply text-2xl font-bold text-white mb-4;
+  }
+  
+  .modalResult {
+    @apply text-3xl font-bold text-green-400 mb-6;
+  }
+  
+  .modalButton {
+    @apply bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition duration-300;
+  }
+  
+  .footer {
+    @apply mt-8 text-gray-400 text-sm;
+  }
+  
+  .footerLink {
+    @apply text-blue-400 hover:text-blue-300 transition duration-300;
+  }
+  
+  .unitToggle {
+    @apply flex justify-center mb-6;
+  }
+  
+  .unitButton {
+    @apply px-4 py-2 text-gray-400 bg-gray-700 transition duration-300;
+  }
+  
+  .unitButton:first-child {
+    @apply rounded-l-md;
+  }
+  
+  .unitButton:last-child {
+    @apply rounded-r-md;
+  }
+  
+  .activeUnit {
+    @apply bg-blue-600 text-white;
+  }
